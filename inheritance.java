@@ -65,15 +65,15 @@ public static void main(String[] args) {
 //Object created for EngineeringStudent class
 EngineeringStudent engineer=new EngineeringStudent();
          engineer.setId(32123);//using Inheritance
-         engineer.setName("Saran");
-         engineer.setDegree("B.TECH");
+         engineer.setName("vivek");
+         engineer.setDegree("B.E");
          engineer.setCollege("Anna University");
          engineer.displaystudentprofile();//calling a method
          
        //Object created for ArtAndScienceStudent class      
   ArtAndScienceStudent Scientist=new ArtAndScienceStudent();
   Scientist.setId(11211);//using Inheritance
-  Scientist.setName("Arun");
+  Scientist.setName("sathish");
   Scientist.setDegree("MCA");
   Scientist.setCollege("Madras Univeristy");
   Scientist.displaystudentprofile();//calling a method
